@@ -6,8 +6,8 @@ const SettingsHeader = () => {
     const dispatch=useDispatch()
   return (
     <div className="relative w-full text-center">
-    <span className='text-2xl text-black'>Settings</span>
-    <button onClick={()=>dispatch(setSettingsVisibility(false))} className="absolute left-0"><IoIosArrowBack size={30}/></button>
+    <span className='text-lg md:text-2xl text-black'>Settings</span>
+    <button onClick={()=>dispatch(setSettingsVisibility(false))} className="absolute left-0 text-lg md:text-2xl"><IoIosArrowBack /></button>
 </div>
   )
 }

@@ -10,7 +10,7 @@ const CartBottomButtons = () => {
   const dispatch = useDispatch();
 
   return (
-    <section className="my-2 flex justify-between flex-wrap gap-2 [&>*]:px-5 [&>*]:py-3 shrink-0">
+    <section className="my-2 flex justify-between flex-wrap gap-2 [&>*]:px-2 [&>*]:py-1 md:[&>*]:px-4 md:[&>*]:py-2  [&>*]:rounded-sm shrink-0">
       <button className="flex justify-center items-center gap-3 flex-grow btn-danger">
         <MdOutlineCancel />
         <span>Cancel</span>

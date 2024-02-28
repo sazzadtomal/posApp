@@ -15,11 +15,11 @@ const CartItems = ({cart}) => {
     <div className="flex flex-col my-4 flex-grow overflow-y-scroll text-[#5e636b]">
       {cart?.map((item) => (
         <div key={item.name} className="flex items-center">
-          <span className="flex w-full gap-4 justify-between items-center p-4 border">
-            <div className="basis-2/5">{item.name}</div>
+          <span className="flex w-full gap-4 justify-between items-center p-2 md:p-4 border">
+            <div className="basis-1/3 md:basis-2/5">{item.name}</div>
             <div className="shrink-0 flex flex-grow justify-between">
               <span className="basis-1/3">${item.price}</span>
-              <span className="basis-1/3 flex justify-center items-center gap-2">
+              <span className="basis-1/3 flex justify-center items-center md:gap-2">
                 <button>
                   <FaPlusCircle
                     onClick={() => dispatch(incrementProduct(item))}
@@ -39,7 +39,7 @@ const CartItems = ({cart}) => {
           </span>
           <button
             onClick={() => dispatch(removeProduct(item))}
-            className="text-red-600 p-2"
+            className="text-red-600 pl-1 md:p-2"
           >
             <IoTrash />
           </button>

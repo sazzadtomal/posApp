@@ -15,7 +15,7 @@ const CartTopButton = () => {
       <button onClick={()=>dispatch(setSidePanelVisibility(true))} className="pr-4 py-2">
         <RxHamburgerMenu size={30} />
       </button>
-      <section className="flex flex-grow flex-wrap gap-2 [&>*]:px-4 [&>*]:py-2  [&>*]:rounded-sm">
+      <section className="flex flex-grow flex-wrap gap-2 [&>*]:px-2 [&>*]:py-1 md:[&>*]:px-4 md:[&>*]:py-2  [&>*]:rounded-sm">
         <button className="flex flex-grow justify-center items-center btn-secondary gap-2">
           <PiNotePencilLight />
           <span>Note</span>

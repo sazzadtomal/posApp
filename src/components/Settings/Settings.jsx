@@ -13,7 +13,7 @@ const Settings = () => {
     <div className="absolute w-full h-full flex justify-center items-center">
       <section onClick={()=>{dispatch(setSettingsVisibility())}} className="absolute w-full h-full  bg-gray-600 opacity-25 z-40 "></section>
 
-      <div className=" bg-white relative flex flex-col  items-center py-6 px-8 z-50">
+      <div className=" bg-white relative flex flex-col items-center px-6 py-4 md:py-6 md:px-8 z-50">
         <SettingsHeader />
         <Taxation />
         <DiscountRadioButtons />

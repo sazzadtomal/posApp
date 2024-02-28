@@ -12,7 +12,7 @@ const SelectUser = ({ users, currentUser }) => {
   };
 
   return (
-    <div className="flex items-center text-2xl mt-4 gap-2 bg-[#EEF0F9] text-[#6D7ACA] p-2 rounded-lg outline-0">
+    <div className="flex items-center text-lg md:text-2xl mt-4 gap-2 bg-[#EEF0F9] text-[#6D7ACA] p-1 md:p-2 rounded-lg outline-0">
       <CgProfile />
       <select
         onChange={currentUserHandler}
@@ -25,7 +25,7 @@ const SelectUser = ({ users, currentUser }) => {
           </option>
         ))}
       </select>
-      <button onClick={() => dispatch(setRegistrationVisibility(true))}>
+      <button className="flex items-center" onClick={() => dispatch(setRegistrationVisibility(true))}>
         <IoIosAddCircleOutline />
       </button>
     </div>

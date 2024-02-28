@@ -26,7 +26,7 @@ const CheckOutStatus = ({ data }) => {
 
       <div className="mt-2 w-full bg-[#E1EAF9] font-semibold flex justify-between items-center p-2 rounded-md text-[#4B82DD] shrink-0">
         <div className="text-xs">Products Count({count})</div>
-        <div className="flex md:w-1/2 justify-between text-3xl">
+        <div className="flex md:w-1/2 justify-between text-lg md:text-3xl">
           <span>Total</span>
           <span className="pl-2">${final}</span>
         </div>

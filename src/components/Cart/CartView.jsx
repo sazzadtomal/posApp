@@ -17,7 +17,7 @@ const CartView = () => {
 
 
   return (
-    <aside className=" w-4/5 lg:w-full flex px-4 flex-col h-full left-0 top-0 absolute lg:static bg-white border z-10">
+    <aside className=" w-4/5 lg:w-full flex px-2 md:px-4 flex-col h-full left-0 top-0 absolute lg:static bg-white border z-10">
       <CartTopButtons />
       <SelectUser users={users} currentUser={currentUserName} />
       <CartItems cart={cart} />

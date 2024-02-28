@@ -12,7 +12,7 @@ const DiscountRadioButtons = () => {
                        <label htmlFor='before'>Before Discount</label>
                    </div>
 
-                   <button className='btn-primary p-4 mt-8'>Update</button>
+                   <button className='btn-primary p-4 mt-4 md:mt-8'>Update</button>
               </form>
                   
     </div>

@@ -19,26 +19,6 @@ const productsData =[
     {name:"White Shirt",price:42,img:whiteShirt,quantity:1},
     {name:"Levis Shirt",price:42,img:levisShirt,quantity:1},
     {name:"Maroon Shirt",price:42,img:maroonShirt,quantity:1},
-    // {name:"Red Shirt",price:42,img:redShirt,quantity:1},
-    // {name:"Olive Shirt",price:42,img:oliveShirt,quantity:1},
-    // {name:"White Shirt",price:42,img:whiteShirt,quantity:1},
-    // {name:"Levis Shirt",price:42,img:levisShirt,quantity:1},
-    // {name:"Maroon Shirt",price:42,img:maroonShirt,quantity:1},
-    // {name:"Red Shirt",price:42,img:redShirt,quantity:1},
-    // {name:"Olive Shirt",price:42,img:oliveShirt,quantity:1},
-    // {name:"White Shirt",price:42,img:whiteShirt,quantity:1},
-    // {name:"Levis Shirt",price:42,img:levisShirt,quantity:1},
-    // {name:"Maroon Shirt",price:42,img:maroonShirt,quantity:1},
-    // {name:"Ash Shirt",price:52,img:ashShirt},
-    // {name:"Ash Shirt",price:52,img:ashShirt},
-    // {name:"Ash Shirt",price:52,img:ashShirt},
-    // {name:"Ash Shirt",price:52,img:ashShirt},
-    // {name:"Ash Shirt",price:52,img:ashShirt},
-    // {name:"Ash Shirt",price:52,img:ashShirt},
-    // {name:"Ash Shirt",price:52,img:ashShirt},
-    // {name:"Ash Shirt",price:52,img:ashShirt},
-
-
 ]
 
 export default productsData
