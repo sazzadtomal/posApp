@@ -5,3 +5,27 @@
 *{
     box-sizing: border-box;
 }
+
+body{
+   color:#6f7a83 ;
+}
+
+
+.btn-primary{
+     background-color: #3674D9;
+     color: white;
+     border-radius: 0.125rem
+}
+
+.btn-secondary{
+    background-color: #E7E9F6;
+    color: #6D7ACA;
+    border-radius: 0.125rem
+}
+
+
+.btn-danger{
+    background-color:#FCC2AF ;
+    color:#EC7476;
+    border-radius: 0.125rem
+}
