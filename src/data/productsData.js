@@ -3,10 +3,10 @@ import redShirt from "../assets/redShirt.jpg"
 import skyShirt from "../assets/skyShirt.jpg"
 import deepAshShirt from "../assets/deepAshShirt.jpg"
 import greyShirt from "../assets/greyShirt.jpg"
-import oliveShirt from "../assets/OliveShirt.jpg"
 import whiteShirt from "../assets/whiteShirt.webp"
 import levisShirt from "../assets/levisShirt.jpg"
 import maroonShirt from "../assets/maroonShirt.jpg"
+import oliveShirt from "../assets/oliveShirt.jpg"
 
 const productsData =[
     
